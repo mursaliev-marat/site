@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Liberty</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/animation.js"></script>
+</head>
+<body>
+	<div class="headLink">
+	<div class="socialLinks">
+<a href=""><img src="img/twitter.png" alt="twitter" class="socialLink"></a>
+<a href=""><img src="img/rss.png" alt="rss" class="socialLink"></a>
+<a href=""><img src="img/skype.png" alt="skype" class="socialLink"></a>
+<a href=""><img src="img/facebook.png" alt="facebook" class="socialLink"></a>
+</div>
+<div class="nameMail">
+<p class="mail">имясайта<span class="colorTextMail">@gmail.com</span></p>
+</div>
+</div>
+	<div class="blackLine"></div>
+<header class="header">
+	<div class="logoImage"><img src="img/logo.png" alt="logo" class="logo"></div>
+	<div class="menu">
+		<ul class="menuMain">
+		  <li><a href="">Главная</a></li>
+		  <li><a href="">Услуги</a></li>
+		  <li><a href="">Поиск объектов</a></li>
+		  <li><a href="">Партнеры</a></li>
+		  <li><a href="">Карьера</a></li>
+	    </ul>
+	</div>
+	<input type="text" class="input input-address" placeholder="Search">
+</header>
+<hr class="hrHeader">
+<section class="animations">
+	<div class="animationContent fade current">
+		<img class="animationImage" src="img/animation_image.jpg" alt="">
+		<div class="textAnimation">			
+		<p class="text">Новые поступления агенства<br>недвижимости</p>
+		<p class="price">120000 у.е.</p>
+	</div>
+	</div>
+	<div class="animationContent fade ">
+		<img class="animationImage" src="img/logo.png" alt="">
+		<div class="textAnimation">			
+		<p class="text">Новые поступления агенства<br>недвижимости</p>
+		<p class="price">120000 у.е.</p>
+	</div>
+	</div>
+	<div class="animationContent fade">
+		<img class="animationImage" src="img/animation_image.jpg" alt="">
+		<div class="textAnimation">			
+		<p class="text">Новые поступления агенства<br>недвижимости</p>
+		<p class="price">120000 у.е.</p>
+	</div>
+	</div>
+	<div class="animationContent fade">
+		<img class="animationImage" src="img/animation_image.jpg" alt="">
+		<div class="textAnimation">			
+		<p class="text">Новые поступления агенства<br>недвижимости</p>
+		<p class="price">120000 у.е.</p>
+	</div>
+	</div>
+	<div class="animationContent fade">
+		<img class="animationImage" src="img/animation_image.jpg" alt="">
+		<div class="textAnimation">			
+		<p class="text">Новые поступления агенства<br>недвижимости</p>
+		<p class="price">120000 у.е.</p>
+	</div>
+	</div>
+	<div class = "animationButton">
+		<span class="dot active" onclick="currentSlide(1)"></span>
+		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
+		<span class="dot" onclick="currentSlide(4)"></span>
+		<span class="dot" onclick="currentSlide(5)"></span>
+	  </div>
+</section>
+<div class="sectionSearch">
+	<form class="sectionSearchItem">
+<div class="section">
+<div class="typeProperty">
+<p class="textType">Тип недвижимости</p>
+<p><select class="textTypeList textTypeListImage" size="1">
+	<option value="">Dropdown</option>
+    <option value="">1</option>
+    <option value="">2</option>
+    <option value="">3</option>
+    <option value="">4</option>
+   </select></p>
+   <p class="textType">Район</p>
+<p><select class="textTypeList textTypeListImage" size="1">
+	<option value="">Dropdown</option>
+    <option value="">5</option>
+    <option value="">6</option>
+    <option value="">7</option>
+    <option value="">8</option>
+   </select></p>
+   <p>Обновлен за последние</p>
+		</div>
+		<div class="selectList">
+			<p class="textSelectList">Выбор из списка</p>
+			<div class="checkbox">
+			<div class="checkboxItem"><label for="1">Опция 1</label><input id="1" type="checkbox" name="a" value="1"></div>
+			<div class="checkboxItem"><label for="2">Опция 2</label><input id="2" type="checkbox" name="a" value="2"></div>
+			<div class="checkboxItem"><label for="3">Опция 3</label><input id="3" type="checkbox" name="a" value="3" checked></div>
+			<div class="checkboxItem"><label for="4">Опция 4</label><input id="4" type="checkbox" name="a" value="4"></div>
+		</div>
+		</div>
+
+		<div class="selectListExtra">
+			<p class="textSelectListExtra">Выбор 2</p>
+			<div class="checkboxExtra">
+			<input id="1" type="checkbox" name="a" value="1">
+			<input id="2" type="checkbox" name="a" value="2">
+			<input id="3" type="checkbox" name="a" value="3" checked>
+			<input id="4" type="checkbox" name="a" value="4">
+		</div>
+		</div>
+
+		<a class="buttonForm"><span>Button</span></a>
+	</div>
+	</form>
+</div>
+<section class="sectionCard">
+	<div class="cards">
+		
+		<div class="card">
+			<div class="card-heading">
+				<div class="cardTitle">
+					<p>Дарницкий р-он</p>
+				<div class="rating">
+					<img src="img/rating.png" alt="rating" class="rating-star">
+					<img src="img/rating.png" alt="rating" class="rating-star">
+					<img src="img/rating-white.png" alt="rating">
+					<img src="img/rating.png" alt="rating" class="rating-star">
+					<img src="img/rating.png" alt="rating" class="rating-star">
+				</div>
+			</div>
+			<img src="img/card_1.jpg" alt="image" class="card-image">
+			<div class="card-text">
+				<p>Код: B-84522<br> Мишуги О.<br> Количество комнат: 3 <br >Площадь: 98 м2</p>
+			</div>
+				<div class="card-info">
+					<div><span class="price">750</span> у.е.</div>
+					<a class="buttonCard"><span>Подробнее</span></a>
+				</div>
+		</div>
+	</div>
+	<div class="card">
+		<div class="card-heading">
+			<div class="cardTitle">
+				<p>Дарницкий р-он</p>
+			<div class="rating">
+				<img src="img/rating.png" alt="rating" class="rating-star">
+				<img src="img/rating.png" alt="rating" class="rating-star">
+				<img src="img/rating-white.png" alt="rating">
+				<img src="img/rating.png" alt="rating" class="rating-star">
+				<img src="img/rating.png" alt="rating" class="rating-star">
+			</div>
+		</div>
+		<img src="img/card_1.jpg" alt="image" class="card-image">
+		<div class="card-text">
+			<p>Код: B-84522<br> Мишуги О.<br> Количество комнат: 3 <br >Площадь: 98 м2</p>
+		</div>
+			<div class="card-info">
+				<div><span class="price">750</span> у.е.</div>
+				<a class="buttonCard"><span>Подробнее</span></a>
+			</div>
+	</div>
+</div>
+<div class="card">
+	<div class="card-heading">
+		<div class="cardTitle">
+			<p>Дарницкий р-он</p>
+		<div class="rating">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating-white.png" alt="rating">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+		</div>
+	</div>
+	<img src="img/card_1.jpg" alt="image" class="card-image">
+	<div class="card-text">
+		<p>Код: B-84522<br> Мишуги О.<br> Количество комнат: 3 <br >Площадь: 98 м2</p>
+	</div>
+		<div class="card-info">
+			<div><span class="price">750</span> у.е.</div>
+			<a class="buttonCard"><span>Подробнее</span></a>
+		</div>
+</div>
+</div>
+<div class="card">
+	<div class="card-heading">
+		<div class="cardTitle">
+			<p>Дарницкий р-он</p>
+		<div class="rating">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating-white.png" alt="rating">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+		</div>
+	</div>
+	<img src="img/card_1.jpg" alt="image" class="card-image">
+	<div class="card-text">
+		<p>Код: B-84522<br> Мишуги О.<br> Количество комнат: 3 <br >Площадь: 98 м2</p>
+	</div>
+		<div class="card-info">
+			<div><span class="price">750</span> у.е.</div>
+			<a class="buttonCard"><span>Подробнее</span></a>
+		</div>
+</div>
+</div>
+<div class="card">
+	<div class="card-heading">
+		<div class="cardTitle">
+			<p>Дарницкий р-он</p>
+		<div class="rating">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating-white.png" alt="rating">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+		</div>
+	</div>
+	<img src="img/card_1.jpg" alt="image" class="card-image">
+	<div class="card-text">
+		<p>Код: B-84522<br> Мишуги О.<br> Количество комнат: 3 <br >Площадь: 98 м2</p>
+	</div>
+		<div class="card-info">
+			<div><span class="price">750</span> у.е.</div>
+			<a class="buttonCard"><span>Подробнее</span></a>
+		</div>
+</div>
+</div>
+<div class="card">
+	<div class="card-heading">
+		<div class="cardTitle">
+			<p>Дарницкий р-он</p>
+		<div class="rating">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating-white.png" alt="rating">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+			<img src="img/rating.png" alt="rating" class="rating-star">
+		</div>
+	</div>
+	<img src="img/card_1.jpg" alt="image" class="card-image">
+	<div class="card-text">
+		<p>Код: B-84522<br> Мишуги О.<br> Количество комнат: 3 <br >Площадь: 98 м2</p>
+	</div>
+		<div class="card-info">
+			<div><span class="price">750</span> у.е.</div>
+			<a class="buttonCard"><span>Подробнее</span></a>
+		</div>
+</div>
+</div>
+	</div>
+	<div class="advertising">
+		<div class="advertisingContent">
+			<div class="cardTitleAdvir">
+				<h4>3D-туры объектов</h4>
+		</div>
+			<div class="cardAdvir">
+				<div class="cardHeadingAdvir">
+				<a href="#"><p class="adverLink">Дом на продажу</p></a>
+				<img src="img/advirtising.jpg" alt="image" class="cardImageAdvir">
+				<div class="cardTextAdvir">
+					<p>Бориспольський процев</p>
+				</div>
+					<div class="cardInfoAdvir">
+						<a class="CardAdvir"><span>370 000 USD</span></a>
+					</div>
+			</div>
+			</div>
+			<div class="cardAdvir">
+				<div class="cardHeadingAdvir">
+				<a href="#"><p class="adverLink">Дом на продажу</p></a>
+				<img src="img/advirtising.jpg" alt="image" class="cardImageAdvir">
+				<div class="cardTextAdvir">
+					<p>Бориспольський процев</p>
+				</div>
+					<div class="cardInfoAdvir">
+						<a class="CardAdvir"><span>370 000 USD</span></a>
+					</div>
+			</div>
+			</div>
+			<div class="cardAdvir">
+				<div class="cardHeadingAdvir">
+				<a href="#"><p class="adverLink">Дом на продажу</p></a>
+				<img src="img/advirtising.jpg" alt="image" class="cardImageAdvir">
+				<div class="cardTextAdvir">
+					<p>Бориспольський процев</p>
+				</div>
+					<div class="cardInfoAdvir">
+						<a class="CardAdvir"><span>370 000 USD</span></a>
+					</div>
+			</div>
+			</div>
+
+			<div class="banner">
+				<p class="bannerText">РЕКЛАМА<br>баннер</p>
+			</div>
+		</div>
+	</div>
+	
+</section>
+<div class="blackLine"></div>
+<div class="footer"></div>
+</body>
+</html>
