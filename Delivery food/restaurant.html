@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>PizzaBurger - доставка еды на дом</title>
+	<title>Сад - доставка еды на дом</title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/animate.css">
@@ -33,7 +33,7 @@
 
 	<section class="restaurants">
 		<div class="section-heading">
-			<h2 class="section-title">PizzaBurger</h2>
+			<h2 class="section-title">Сад</h2>
 			<div class="card-info">
 						<div class="rating">
 						<img src="img/rating.svg" alt="rating" class="rating-star">
@@ -284,5 +284,23 @@
 </div>
  <script src="js/wow.min.js"></script>
  <script src="js/main.js"></script>
+ <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-title="DeliveryFood"
+  agent-id="eb79092b-1432-4c4a-b949-fdd2273da793"
+  language-code="ru"
+></df-messenger>
+<style>
+	df-messenger {
+	 --df-messenger-bot-message: #ec2626;
+	 --df-messenger-button-titlebar-color: rgb(41, 236, 41);
+	 --df-messenger-chat-background-color: #ffffff;
+	 --df-messenger-font-color: white;
+	 --df-messenger-send-icon: #ec2626;
+	 --df-messenger-user-message: rgb(41, 236, 41);
+	 --df-messenger-input-box-color: #c2cfcb; 
+	 --df-messenger-input-font-color: #ec2626;
+	}
+  </style>
 </body>
 </html>
